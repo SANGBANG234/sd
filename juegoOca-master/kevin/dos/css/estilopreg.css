@@ -1,0 +1,44 @@
+body {
+    background: #ccc;
+    color: #333;
+    font: 14px 'Arial',sans-serif;
+    text-align: center;
+}
+div.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+div.juego {
+
+}
+
+div.juego canvas {
+    box-shadow: 0 0 30px #000;
+    background: url("https://scontent.fmex10-2.fna.fbcdn.net/v/t1.15752-9/90331832_299514197686593_1559956203788828672_n.jpg?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=EuUbEQkAP_sAX9mQW4f&_nc_ht=scontent.fmex10-2.fna&oh=2da4b5b521c1137e63ec9513b794d962&oe=5E9F3D11") no-repeat left;
+    background-size: 515px;
+}
+div.derecha {
+    float: right;
+}
+div.derecha {
+    padding: 10px;
+}
+div.derecha {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.botones {
+padding: 4px 30px;
+}
+
+div.derecha ul#puntuaciones li{
+    line-height:1.5em;
+    border-bottom:1px solid #aaa;
+    float:left;
+    display:inline;
+    width: 50%;
+    padding: 10px 0;
+}

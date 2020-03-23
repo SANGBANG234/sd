@@ -1,0 +1,50 @@
+body {
+    background: #ccc;
+    color: #333;
+    font: 14px 'Arial',sans-serif;
+    text-align: center;
+}
+div.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+div.juego {
+
+}
+
+#boton1{
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+}
+
+#botoncom{
+    font-weight: 600;
+    font-size: 20px;
+}
+div.juego canvas {
+    box-shadow: 0 0 30px #000;
+    background: url("https://images6.alphacoders.com/330/330786.jpg") no-repeat left;
+    background-attachment: 319px;
+}
+div.derecha {
+    float: right;
+}
+div.derecha {
+    padding: 10px;
+}
+div.derecha {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.derecha ul#puntuaciones li{
+    line-height:1.5em;
+    border-bottom:1px solid #aaa;
+    float:left;
+    display:inline;
+    width: 50%;
+    padding: 10px 0;
+}

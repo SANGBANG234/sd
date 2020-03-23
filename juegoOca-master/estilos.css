@@ -1,0 +1,252 @@
+body{
+	display:inline-block;
+	background:url(imagenes/fondo.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:cover;
+	font-size: 16px;
+	text-align: center;
+	margin:0px;
+	padding:0;
+}
+
+
+
+#piedra{
+	position:absolute;
+	left:25%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+#ahorcado{
+	position:absolute;
+	left:25%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+#pinball{
+	position:absolute;
+	left:35%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+#clicks{
+	position:absolute;
+	left:35%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+#seguir{
+	position:absolute;
+	left:35%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+#preguntas{
+	position:absolute;
+	left:35%;
+	top:0%;
+	width:60%;
+	height:100%;
+	opacity:.9;
+}
+
+
+
+.miCanvas{
+position:absolute;
+
+}
+#myCanvas{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSEyp_45nBuUSAzCCUum7PPF9R7ENXtRC2DXgIiMawi1n6sf8");}
+
+}
+.sdf{
+	z-index:99;
+}
+
+.tablero{
+	float: left;
+	margin:0px;
+}
+h3{
+	color: black;
+	font-family: Roboto;
+	font-size: 2em;
+	font-weight: 800;
+	text-shadow: 3px 3px 2px rgba(50, 50, 50, .7);
+}
+#dadoSorteo{
+	background:url(imagenes/dadoSorteo.png);
+	height: 15px;
+	width: 15px;
+}
+#elegirAmarillo{
+	background: yellow;
+	font-family: lobster;
+	height: 100px;
+	width: 100px;
+}
+#elegirRojo{
+	background: red;
+	font-family: lobster;
+	height: 100px;
+	/*margin-left: 35%;*/
+	width: 100px;
+}
+#jugar{
+	background:url(imagenes/botonInicio.png);
+	font-size: 3em;
+}
+#jugarDeNuevo{
+	font-size: 1.5em;
+	margin: 2em 0 0 0 ;
+}
+
+
+#marcador{
+	/*background: gold;*/
+	float: left;
+	height: 240px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	width: 300px;
+}
+#marcador input{
+	font-family: lobster;
+	font-size: 1.5em;
+	font-weight: bolder;
+	height: 50px;
+	margin:0 0 1em 0;
+	text-align: center;
+	width: 50px;
+}
+#marcador p{
+	color: white;
+	font-family: lobster;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+#marcadorRojo{
+	background: #ff0000;
+}
+#marcadorAmarillo{
+	background: #ffff00;
+}
+
+#panelContenedor{
+	/*background: lime;*/
+	float: left;
+	height: 650px;
+	width: 300px;
+	margin: 0 0 0 30px;
+	position: relative;
+	background-color:grey;
+
+}
+#panelFinal h2{
+	color: #35e431;
+	font-family: lobster;
+	font-size: 2.5em;
+	text-shadow: 4px 4px 2px rgba(84, 84, 84, .5);
+}
+#panelInicio input{
+	font-size: 1.5em;
+	border-radius: 50%;
+
+}
+
+
+
+
+.dado{
+	height: 100px;
+	position:center;
+    background-repeat:no-repeat;
+    background-position:center;
+	background-size:cover;
+	width: 200px;
+}
+.cubileteAmarillo{
+	background:url(imagenes/cubileteAmarillo.png);
+}
+.cubileteRojo{
+	background:url(imagenes/cubileteRojo.png);
+}
+.oculto{
+	display: none;
+}
+.panel{
+	/*background: pink;*/
+	clear: both;
+	float: left;
+	height: 500px;
+	margin: 1em 0 0 0;
+	width: 300px;
+}
+.caja {
+  background-color: #D9E0D9;
+  border-radius: 5px;
+  font-size: 80px;
+  height: 150px;
+  width: 150px;  
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  left:7%;
+  top:1f%;
+}
+.visible{
+	display: inline;
+}
+#panelInicio{
+	position:relative;
+	top:100px;
+}
+#panelJuego{
+	position:relative;
+	top:100px;
+}
+
+@media screen and (max-width: 1030px){
+	h3{
+		margin: 0;
+		padding: 10px 0 15px 0;
+		font-size: 1.7em;
+	}
+	#panelContenedor{
+		/*background: lime;*/
+		position: relative;
+		width: 650px;
+		height: 300px;
+	}
+	#marcador{
+		/*background: gold;*/
+		height: 300px;
+		position: absolute;
+		right: 0;
+		padding: 0;
+	}
+	.panel{
+		/*background: pink;*/
+		height: 300px;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		width: 350px;
+	}
+}

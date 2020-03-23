@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilopiedra.css">
+	<title>Piedra, Papel y Tijera</title>
+</head>
+<body>
+	<script src="js/ppt.js"></script>
+	<section>
+		<div class="instrucciones"> 
+			<h2>Da click sobre la Piedra, Papel o Tijera para comenzar a jugar</h2>
+		</div>
+
+		<div class="marcador">
+      		<div class="user-label badge">USUARIO</div>
+      		<div class="comp-label badge">PC</div>
+      		<span id="user-score">0</span> :
+      		<span id="comp-score">0</span>
+   		</div>
+
+		<center>
+			<div class="elementos">
+				<div class="choice">
+					<img src="img/piedra.jpg" alt="" height="50px" width="50px" onclick="jugar(0);"> 
+				</div>
+				<div class="choice">
+					<img src="img/papel.jpg" alt=""  height="50px" width="50px" onclick="jugar(1);"> 
+				</div>
+				<div class="choice">
+					<img src="img/tijera.jpg" alt=""  height="50px" width="50px" onclick="jugar(2);"> 
+				</div>
+			</div>
+		</center>
+
+		
+	</section>
+	<section> 
+		<div class="resultsss">
+			<h1 id="jugador" ></h1>
+			<h1 id="resultado"></h1>
+			<h1 id="enemigo" > </h1>
+		</div>
+	</section>
+
+	
+	
+</body>
+</html>

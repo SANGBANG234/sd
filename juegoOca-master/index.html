@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <meta http-equiv="refresh" content="7"> -->
+	<meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale=1" />
+	<meta charset="UTF-8" />
+	<title>Juego de la oca</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="estilos.css" />
+	
+	<script  src="oca.js"></script>
+	
+	
+	<script src="jquery.min.js"></script>
+	
+
+
+</head>
+<body id="body">
+	<div id="panelContenedor" name="panelc">
+		<div id="marcador">
+			<h3 id="colorJugador">Juegas con...</h3>
+			<input type="text" id="marcadorRojo" name="marcador" value="3">
+			<h3>Numero de tiros</h3>
+			<input type="text" id="tiros" name="tiros" value="10">
+			
+			
+		</div>
+		<div id="panelInicio" class= "visible panel" >
+			<h3 id="mensaje">Elige ficha y juega</h3>
+			<input type="button" value="" id="elegirRojo" onclick="jugar();seleccionarFicha('rojo')">
+			
+		</div>
+		<div id="panelJuego" class="oculto panel">
+			<h3 id="mensaje">Mueve el dado</h3>
+			<div id="dadoEnJuego" class="dado" onclick="tirada()" onmouseover="sobre()"></div>
+			<h3 id="alerta">Lo siento culpa mía, tendrás que recargar la página de nuevo</h3>
+		</div>
+		<div id="panelFinal" class="oculto panel">
+			<h2 id="mensaje">Ganador...</h2>
+			<div id="dadoGanador" class="dado"></div>
+			<input type="button" id="jugarDeNuevo" value="Nueva Partida" onclick="jugar()" >
+		</div>
+		
+		
+	</div>
+
+	<canvas id="tablero" ></canvas>
+	
+
+	
+	<script>
+		iniciar()
+		
+	</script>
+
+	
+
+	<div class="nose" id="nose">
+		
+    
+		
+	</div>
+
+	
+		<iframe src="dani/piedra.html" class="oculto" id="piedra" frameborder="0"></iframe>
+		<iframe src="saul/palabras.html" class="oculto" id="ahorcado" frameborder="0"></iframe>
+		<iframe src="kevin/pinball.html" class="oculto" id="pinball" frameborder="0"></iframe>
+		<iframe src="toni/clicks.html" class="oculto" id="clicks" frameborder="0"></iframe>
+		<iframe src="toni/seguir/index.html"  class="oculto" id="seguir" frameborder="0"></iframe>
+		<iframe src="kevin/dos/preg.html" class="oculto" id="preguntas" frameborder="0"></iframe>
+
+		
+		
+	
+
+
+	
+</body>
+</html>

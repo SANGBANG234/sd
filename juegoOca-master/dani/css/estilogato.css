@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+	background:#E0FBFC;
+}
+header{
+  background: #326273;
+  padding: 10px;
+  color: #E39774;
+  
+  font-family: 'Comic Sans', cursive;
+}
+
+header>h1{
+  font-size: 50px;
+  text-align:center;
+}
+.instrucciones{
+	font-family:Verdana;
+	font-size:20px;
+	margin:10px;
+}
+h1{
+	text-align:center
+}
+#miCanvas{
+	border:solid 1px;
+}
+section{
+	margin:auto;
+	margin-top:15px;
+	width:800px;
+}

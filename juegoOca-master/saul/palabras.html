@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estiloahocado.css">
+</head>
+<body>
+	<div class="main-container">
+		<h1 class="titulo">Ahorcado</h1>
+		<h1 id="messagefinal"></h1>
+		<h3 id="acierto"></h3>
+		<div class="flex-row no-wrap">
+			<h2 class="pelegida" id="pelegida"></h2>
+			<picture>
+				<img src="img/a6.png" alt="" id="image6">
+				<img src="img/a5.png" alt="" id="image5">
+				<img src="img/a4.png" alt="" id="image4">
+				<img src="img/a3.png" alt="" id="image3">
+				<img src="img/a2.png" alt="" id="image2">
+				<img src="img/a1.png" alt="" id="image1">
+				<img src="img/a0.png" alt="" id="image0">
+			</picture> 
+		</div>
+		<div class="flex-row" id="turnos">
+			<div class="col">
+				<h3>Intentos restantes: <span id="intentos">6</span></h3>
+			</div>
+			<div class="col">
+				<button onclick="inicio()" id="reset">Elegir otra palabra</button>
+			</div>
+		</div>
+		<div class="flex-row">
+			<div class="col">
+				<div class="flex-row" id="abecedario"></div>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+	<script src="js/ahorcado.js"></script>
+</body>
+</html>
