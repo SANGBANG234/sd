@@ -30,7 +30,7 @@ function iniciar(){
 }
 //Crear los objetos con las imagenes.
 	var fondo = {
-		imagenURL: "imagenes/tableroa.png"
+		imagenURL: "imagenes/Tableroa.png"
 	};
 //Confirmar la carga de las imágenes.
 	function confirmarFondo(){
